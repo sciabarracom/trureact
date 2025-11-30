@@ -82,6 +82,6 @@
   },
   "openserverless": {
     "devel": "/home/.local/bin/uv --directory app run main.py",
-    "deploy": "npm run build && ops ide deploy"
+    "deploy": "npm run build"
   }
 }
