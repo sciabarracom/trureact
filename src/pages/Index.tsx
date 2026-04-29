@@ -1,5 +1,6 @@
 import { useState } from "react";
 import { Button } from "@/components/ui/button";
+import { Link } from "react-router-dom";
 import { Toaster } from "@/components/ui/toaster";
 import { Toaster as Sonner } from "@/components/ui/sonner";
 
@@ -74,6 +75,12 @@ const Index = () => {
                 <Button onClick={resetTimer} variant="outline" size="lg">
                   Reset
                 </Button>
+              </div>
+
+              <div className="mt-6">
+                <Link to="/about" className="text-sm text-primary hover:underline">
+                  About &rarr;
+                </Link>
               </div>
             </div>
           </div>
