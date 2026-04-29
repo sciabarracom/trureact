@@ -77,9 +77,12 @@ const Index = () => {
                 </Button>
               </div>
 
-              <div className="mt-6">
+              <div className="mt-6 space-y-2">
                 <Link to="/about" className="text-sm text-primary hover:underline">
                   About &rarr;
+                </Link>
+                <Link to="/ip" className="text-sm text-primary hover:underline">
+                  Your IP &rarr;
                 </Link>
               </div>
             </div>
